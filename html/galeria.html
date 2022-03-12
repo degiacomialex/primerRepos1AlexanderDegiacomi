@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/clase9.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../jpg/iconskin.png">
     <title>galeria</title>
 </head>
 <body>  
     <header>    
-        <h1>ESTOY EN GALERIA</h1>    
-        <nav>
-            <ul>    
+        <h1 class="titulos">ESTOY EN GALERIA</h1>    
+        <nav class="nav-main"> 
+            <ul class="nav-menu">  
                 <li>    
                     <a href="../index.html"> Home</a> 
                 </li>
@@ -42,44 +42,39 @@
         </section>
     </main>
     <!--emento HTML sólo puede tener un ID que pertenezca a ese único elemento, mientras que varios elementos pueden usar un nombre de clase.-->
-    <h2>BOX MODELING</h2>
-    <div id="padre">
-        <div class="box-premium">
-            <img src="../jpg/kalak.jpeg" alt="box Premium">
-            Box Premium
-        </div>
-        <div class="mascarilla-de-paltas">
-            <img src="../jpg/Mask Bling Pop Palta.jpeg" alt="mascarillas">
-            Mascarilla de Paltas
-        </div>
-        <div class="tipos-de-piel">
-            <img src="../jpg/piel.jpeg" alt="tipos de piel">
-            Mascarilla Para Ojos
-        </div>
-        <div class="aceite-de-ricino">
-            <img src="../jpg/soykala.jpeg" alt="aceite de ricino">
-            Aceite De ricino
-        </div>
-    </div>
-    <footer>    
-        <ul>    
-            <li>    
-                <a href="../index.html"> Home</a> 
-            </li>
-            <li>
-                <a href="productos.html">Productos</a>
-            </li>
-            <li>    
-                <a href="galeria.html">Galeria</a>
-            </li>
-            <li>
-                <a href="tiposdepiel.html">Tipos de piel</a>
-            </li>
-            <li>    
-                <a href="contactanos.html">Contactanos</a>
-            </li>
-        <p>Pagina by Alexander</p>
-        <img src="../jpg/redes.png" height="50" alt="redes scociales">
-    </footer>
+    <footer>  
+        <footer class="sociales">
+            <section class="social">
+                <p>Seguinos en nuestras redes</p>
+                <div class="links">
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                     <i class="fab fa-instagram"></i>
+                 </a>
+                 <a href="#">
+                     <i class="fab fa-twitter"></i>
+                 </a>
+                </div>
+            </section>
+              <section class="contacto">
+                 <div class="contenedor">
+                     <div class="footer-textos">
+                         <h2>Contactate con nosostros</h2>
+                     </div>
+                     <form action="" class="formulario" method="POST">
+                         <input type="text" placeholder="Nombre" id="nombre" name="nombre" required value="">
+                         <input type="email" placeholder="Correo" id="correo" name="correo" required value="" class="email">
+                         <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
+                        <div class="derecha">
+                         <input class="boton derecha" type="submit" value="Contactar" name="submmit">
+                         </div>
+                     </form>
+                 </div>
+             </section>    
+        </footer>
+    </footer>    
+    
 </body>
 </html>

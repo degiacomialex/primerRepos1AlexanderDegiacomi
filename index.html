@@ -5,106 +5,127 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <link rel="stylesheet" href="css/clase9.css">
-    <!--mi documento html esta linkeado con mi documento css donde le puedo dar estilo a mi documento// tengo tambien otra link donde uso un favicon-->
-    <link rel="shortcut icon" href="../proyectofinal/jpg/iconskin.png">
-    <title>index</title>
-</head>
-
-<body>
-    <!--El elemento header contiene al encabezado de una sección o documento-->
-    <!-- el nav representa una sección de una página cuyo propósito es proporcionar enlaces de navegación, como por ejemplo son menús, tablas de contenido e índices.
-    el ul crea una lista no ordenada// Mientas que el li declara a cada uno de los elementos de una lista-->
-    <header class="bg_animate" >   
-        <img src="jpg/logito.jpg" height="150" alt="">  
-        <h1>Kala SkinCare</h1>
-        <nav>
-            <ul> 
-                <li>    
-                    <a href="index.html"> Home</a>
-                </li>
+     <!--Font Awesome-->
+     <link rel="shortcut icon" href="jpg/iconskin.png">
+     <link rel="stylesheet" href="css/estilo.css">
+ <body class="bg_animate">
+    <div class="container">
+         <nav class="nav-main">
+             <img src="jpg/Logo KALA.jpeg" alt="logo" class="nav-logo">   
+             <ul class="nav-menu">
+                 <li>    
+                     <a href="index.html"> Home</a>
+                 </li>
+                 <li>
+                     <a href="html/productos.html">Productos</a> 
+                 </li>
+                 <!-- Estas etiquetas me prermitena navegar por cada uno de mis 5 documentos, se encuentra-->
+                 <li>    
+                     <a href="html/galeria.html">Galeria</a>
+                 </li>
+                 <li>
+                     <a href="html/tiposdepiel.html">Tipos de piel</a>
+                 </li>
+                 <li>    
+                     <a href="html/contactanos.html">Contactanos</a>
+                 </li>  
+                 
+             </ul>
+             <ul class="navmenu-right">
                 <li>
-                    <a href="html/productos.html">Productos</a> 
-                </li>
-                <!-- Estas etiquetas me prermitena navegar por cada uno de mis 5 documentos, se encuentra-->
-                <li>    
-                    <a href="html/galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="html/tiposdepiel.html">Tipos de piel</a>
-                </li>
-                <li>    
-                    <a href="html/contactanos.html">Contactanos</a>
-                </li>
-            </ul>
-            <div>   
-                <input type="text" placeholder="Buscar" required>
-            </div>
-        </nav>
-        <div class="contenido-header">
-            <span class="linea-header"></span>
-        </div>
-    <section class="banner contenedor">
-    </section>
-
-    <div class="burbujas">
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-        <div class="burbuja"></div>
-    </div>
-    </header>
-    <!-- El elemento HTML <main> representa el contenido principal del <body> de un documento o aplicación  -->
-    <main>  
-         <!--  ( <section> ) representa una sección genérica de un documento. -->
-        <section>
-            <div id="grilla">
-                <div class="fotos"><img src="jpg/main.jpg" height="295" width="698" alt="presentacion de productos"></div>
-                <div class="video"><iframe width="698" height="269.50"src="https://www.youtube.com/embed/qB87yoYwClw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                <div class="fotos"><img src="jpg/Mask Bling Pop Palta.jpeg" height="270" width="400" alt="Mascarillas"></div>
-                <div class="fotos"><img src="jpg/Mask Bling Pop Palta.jpeg"height="270" width="400" alt="Mascarillas"></div>
-            </div>
-    </main>
-    <!--(<footer>) representa un pie de página, mi pie de pagina contiene una etiqueta para poder moverse por los documentos y a su vez tambien tiene imagenes-->
-    <footer>
-        <section class="contacto">
-            <div class="contenedor">
-                <div class="footer-textos">
-                    <h2>Contacta con nosostros</h2>
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>     
+             </ul>
+         </nav> 
+          <hr>
+          <!--imagen principal del sitio-->
+          <header class="imagen-principal">
+              <h2>¿Quienes Somos?</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum nihil doloremque cupiditate necessitatibus? Quia corrupti harum impedit architecto, officia praesentium accusantium soluta amet cumque rem consectetur pariatur eius assumenda qui.</p>
+              <a href="#" class="btn">Read More <i class="fas fa-angle-double-right"></i></a>
+          </header>
+          <!--nuevas imagenes cssgrids-->
+          <div class="nuevas-imagenes">
+              <div>
+                  <img src="jpg/rutinaindex.jpg" alt="chica-relax">
+                  <h3>Lorem, ipsum dolor.</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ab architecto voluptate modi natus officia libero aut corporis incidunt repellendus.</p>
+                  <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+              </div>
+              <div>
+                 <img src="jpg/chicaconcrema.jpg" alt="chica-crema">
+                 <h3>Lorem, ipsum dolor.</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ab architecto voluptate modi natus officia libero aut corporis incidunt repellendus.</p>
+                 <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+             </div>
+             <div>
+                 <img src="jpg/RutinaIndex (2).jpg" alt="rutina-index">
+                 <h3>Lorem, ipsum dolor.</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ab architecto voluptate modi natus officia libero aut corporis incidunt repellendus.</p>
+                 <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+             </div>
+ 
+             <div>
+                 <img src="jpg/mujerIndex.jpg" alt="mujer-index">
+                 <h3>Lorem, ipsum dolor.</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ab architecto voluptate modi natus officia libero aut corporis incidunt repellendus.</p>
+                 <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
+             </div>
+             <main>  
+                 <section class="banner-contenido">
+                     <div class="nuevo-banner">
+                         <h2>¡Los hombres también se cuidan!</h2>
+                         <p>Sabias que Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium.</p>
+                         <a href="#" class="btn">Learn More <i class="fas fa-angle-double-right"></i></a>
+                     </div>
+                 </section>
+                 <div class="burbujas">
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
+                    <div class="burbuja"></div>
                 </div>
-                <form action="" class="formulario" method="POST">
-                    <input type="text" placeholder="Nombre" id="nombre" name="nombre" required value="">
-                    <input type="email" placeholder="Correo" id="correo" name="correo" required value="" class="email">
-                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
-                   <div class="derecha">
-                    <input class="boton derecha" type="submit" value="Contactar" name="submmit">
-                    </div>
-                </form>
+             </main>    
+
+       </div>
+       <footer class="sociales">
+        <section class="social">
+            <p>Seguinos en nuestras redes</p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                 <i class="fab fa-instagram"></i>
+             </a>
+             <a href="#">
+                 <i class="fab fa-twitter"></i>
+             </a>
             </div>
-        </section>    
-        <ul>    
-            <li>    
-                <a href="index.html"> Home</a> 
-            </li>
-            <li>
-                <a href="html/productos.html">Productos</a>
-            </li>
-            <li>    
-                <a href="html/galeria.html">Galeria</a>
-            </li>
-            <li>
-                <a href="html/tiposdepiel.html">Tipos de piel</a>
-            </li>
-            <li>    
-                <a href="html/contactanos.html">Contactanos</a>
-            </li>
-        <p>Pagina by Alexander</p>
+        </section>
+          <section class="contacto">
+             <div class="contenedor">
+                 <div class="footer-textos">
+                     <h2>Contactate con nosostros</h2>
+                 </div>
+                 <form action="" class="formulario" method="POST">
+                     <input type="text" placeholder="Nombre" id="nombre" name="nombre" required value="">
+                     <input type="email" placeholder="Correo" id="correo" name="correo" required value="" class="email">
+                     <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
+                    <div class="derecha">
+                     <input class="boton derecha" type="submit" value="Contactar" name="submmit">
+                     </div>
+                 </form>
+             </div>
+         </section>    
     </footer>
-</body>
-</html>
+ </body>
+ </html>
